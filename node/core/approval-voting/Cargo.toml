@@ -31,7 +31,7 @@ sp-application-crypto = { git = "https://github.com/paritytech/substrate", defau
 sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "polkadot-v0.9.26" }
 
 [dev-dependencies]
-parking_lot = "0.12.0"
+parking_lot = "0.12.1"
 rand_core = "0.5.1" #                                                                       should match schnorrkel
 sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.26" }
 sp-keystore = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.26" }
